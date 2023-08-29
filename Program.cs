@@ -8,6 +8,7 @@ using CursoCSharp.Ejercicios;
 using CursoCSharp.OperadoresAritmeticos;
 using CursoCSharp.OperadoresLógicos;
 using CursoCSharp.OperadoresRelacionales;
+using CursoCSharp.Listas;
 
 namespace CursoCSharp
 {
@@ -21,7 +22,7 @@ namespace CursoCSharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menuprincipal());
+            Application.Run(new Frmlistas_arrays());
         }
     }
 }
